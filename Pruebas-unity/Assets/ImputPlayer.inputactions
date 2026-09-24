@@ -1,0 +1,68 @@
+{
+    "version": 1,
+    "name": "ImputPlayer",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "6dca3461-61b4-4b13-ac83-df3f524da628",
+            "actions": [
+                {
+                    "name": "desplazamiento",
+                    "type": "Value",
+                    "id": "58855743-6590-4fbb-a8af-efac21d2d572",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "98011e54-f86b-4bed-9b5f-61eb1a8c7fdd",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "desplazamiento",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "7920c24c-7d60-4dd2-a9cf-2d14366f4cbe",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "desplazamiento",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "b759524f-c7c4-4446-aaf6-ec9907664008",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "desplazamiento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "c873e29d-137a-4fce-ae3a-bc6867ff6805",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "desplazamiento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
